@@ -10,7 +10,7 @@ app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
-  host: 'email-smtp.sa-east-1.amazonaws.com', // Endpoint SMTP da AWS
+  host: '', // Endpoint SMTP da AWS
   port: 587, // Porta STARTTLS
   secure: false, // STARTTLS é usado, portanto, secure deve ser falso
   auth: {
