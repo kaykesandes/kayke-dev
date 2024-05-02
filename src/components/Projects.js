@@ -11,35 +11,24 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "LibFt",
+      description: "Recriando a libc",
       imgUrl: projImg1,
+      url: "https://github.com/kaykesandes/libft_kg",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "CodeWars",
+      description: "Desafios de logica",
       imgUrl: projImg2,
+      url: "https://github.com/kaykesandes/codewars",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Get_nex_line",
+      description: "Função complexa de char",
       imgUrl: projImg3,
+      url: "https://github.com/kaykesandes/get_next_line",
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    
   ];
 
   return (
