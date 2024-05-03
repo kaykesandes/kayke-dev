@@ -10,11 +10,11 @@ export const Newsletter = ({ status, message, onValidated }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    email &&
-    email.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: email
-    })
+    if (email && email.includes("@")) {
+      onValidated({ EMAIL: email });
+    } else {
+      console.error("Email inválido");
+    }
   }
 
   const clearFields = () => {
