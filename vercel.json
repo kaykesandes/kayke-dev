@@ -1,16 +1,26 @@
 {
     "version": 2,
+
+    "build":[
+        {
+            "src": "server.js", 
+            "use": "@vercel/node"
+        },
+        {
+            "src": "package.json",
+            "use": "@vercel/node"
+        }
+    ],
     "routes": [
-      {
-        "src": "/contact",
-        "use": "@vercel/node",
-        "dest": "server.js"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
-    ]
+        {
+          "src": "/contact",
+          "dest": "server.js"
+        },
+        {
+          "src": "/(.*)",
+          "dest": "/index.html"
+        }
+      ]
   }
   
   
