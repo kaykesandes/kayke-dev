@@ -1,26 +1,16 @@
 {
     "version": 2,
-
-    "build":[
+    "name": "kayke-dev",
+    "builds": [
         {
-            "src": "server.js", 
-            "use": "@vercel/node"
-        },
-        {
-            "src": "package.json",
+            "src": "server.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
-          "src": "/contact",
-          "dest": "server.js"
-        },
-        {
-          "src": "/(.*)",
-          "dest": "/index.html"
+            "src": "/(.*)",
+            "dest": "/server.js"
         }
-      ]
-  }
-  
-  
+    ]
+}
