@@ -1,7 +1,7 @@
 {
     "version": 2,
     "routes": [
-      { "src": "/serve", "dest": "/server.js" }
+      { "src": "/(.*)", "dest": "server.js" }
     ]
   }
   
