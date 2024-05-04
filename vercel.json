@@ -3,6 +3,7 @@
     "routes": [
       {
         "src": "/contact",
+        "use": "@vercel/node",
         "dest": "server.js"
       },
       {
