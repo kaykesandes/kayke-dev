@@ -38,6 +38,3 @@ router.post("/contact", (req, res) => {
       res.json({ code: 500, status: "Error sending message" });
     });
 });
-
-
-module.exports = app;
