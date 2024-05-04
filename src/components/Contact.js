@@ -38,8 +38,10 @@ export const Contact = () => {
     setFormDetails(formInitialDetails);
     if (result.code == 200) {
       setStatus({ succes: true, message: 'Mensagem enviada com sucesso'});
+      console.log("Enviado");
     } else {
       setStatus({ succes: false, message: 'Ocorreu um erro tente novamente mais tarde.'});
+      console.log("Erro ao enviar")
     }
   };
 
