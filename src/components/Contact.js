@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
@@ -17,10 +17,10 @@ export const Contact = () => {
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
-      setFormDetails({
-        ...formDetails,
-        [category]: value
-      })
+    setFormDetails({
+      ...formDetails,
+      [category]: value
+    });
   }
 
   const handleSubmit = async (e) => {
@@ -36,11 +36,11 @@ export const Contact = () => {
     setButtonText("Enviar");
     let result = await response.json();
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
-      setStatus({ succes: true, message: 'Mensagem enviada com sucesso'});
+    if (result.code === 200) {
+      setStatus({ success: true, message: 'Mensagem enviada com sucesso'});
       console.log("Enviado");
     } else {
-      setStatus({ succes: false, message: 'Ocorreu um erro tente novamente mais tarde.'});
+      setStatus({ success: false, message: 'Ocorreu um erro tente novamente mais tarde.'});
       console.log("Erro ao enviar")
     }
   };
@@ -67,7 +67,7 @@ export const Contact = () => {
                       <input type="text" value={formDetails.firstName} placeholder="Primeiro Nome" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.lasttName} placeholder="Sobrenome" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
+                      <input type="text" value={formDetails.lastName} placeholder="Sobrenome" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
                     </Col>
                     <Col size={12} sm={6} className="px-1">
                       <input type="email" value={formDetails.email} placeholder="Email" onChange={(e) => onFormUpdate('email', e.target.value)} />
@@ -82,7 +82,7 @@ export const Contact = () => {
                     {
                       status.message &&
                       <Col>
-                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
+                        <p className={status.success === true ? "success" : "danger"}>{status.message}</p>
                       </Col>
                     }
                   </Row>
