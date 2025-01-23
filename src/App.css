@@ -627,3 +627,71 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+.project-container {
+  background: linear-gradient(90deg, #6a11cb, #2575fc); /* Gradiente moderno */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.title-project-diploma {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.img-project {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 15px 0;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+.project-title-curso {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #f3f4f6;
+}
+
+.p-project-date {
+  font-size: 14px;
+  font-weight: 600;
+  color: #d4d4d4;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .project-container {
+    padding: 15px;
+  }
+
+  .title-project-diploma {
+    font-size: 20px;
+  }
+
+  .img-project {
+    width: 80px;
+    height: 80px;
+  }
+
+  .project-title-curso {
+    font-size: 18px;
+  }
+
+  .p-project-text {
+    font-size: 14px;
+  }
+}
+
