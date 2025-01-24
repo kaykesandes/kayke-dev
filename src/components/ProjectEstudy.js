@@ -1,3 +1,5 @@
+import { Row } from "react-bootstrap"
+
 export const ProjectEstudy = ({ title, subtitle, description, time, img}) => {
     return(
             <div className="project-container">
