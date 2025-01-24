@@ -1,0 +1,19 @@
+[
+    {
+      "title": "LibFt",
+      "description": "Recriando a libc",
+      "imgUrl": "https://i.imgur.com/sxPRpCv.png",
+      "url": "https://github.com/kaykesandes/libft_kg"
+    },
+    {
+      "title": "CodeWars",
+      "description": "Desafios de logica",
+      "imgUrl": "https://i.imgur.com/RBSnTZR.png",
+      "url": "https://github.com/kaykesandes/codewars"
+    },
+    {
+      "title": "Get_nex_line",
+      "description": "Função complexa de char",
+      "imgUrl": "https://i.imgur.com/yq5Jxih.png"
+    }
+]
