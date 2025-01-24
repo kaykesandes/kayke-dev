@@ -695,3 +695,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+
+/* Responsividade para tablets  da 3 seção*/
+
+.tab-pane p {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #dfd9d9;
+  padding: 10px;
+}
+
+.tab-pane p strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #AA367C;
+}
+
+.tab-pane p hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .tab-pane p {
+    padding: 5px;
+    font-size: 0.9em;
+  }
+
+  .tab-pane p strong {
+    font-size: 1em;
+  }
+}
