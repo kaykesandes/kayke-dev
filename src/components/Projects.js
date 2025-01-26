@@ -79,13 +79,13 @@ export const Projects = ({ status, message, onValidated }) => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
+                      <p>
                           Trabalhei 2 anos em escritórios com administração e agora estou em busca de me especializar na área de Computação <br />
                           <hr />
-                          <strong>Recanto dos Doces Auxiliar administrativo</strong>, minha tarefa diária era entrada de estoque e lançamento de contas a pagar, planilhas excel para controle e relatorio de financeiro.<br />
+                          <strong>Recanto dos Doces Auxiliar administrativo</strong> minha tarefa diária era entrada de estoque e lançamento de contas a pagar, planilhas Excel para controle e relatório financeiro.<br />
                           <br /><strong>2024-2025</strong><br />
                           <hr />
-                          <strong>Contabilidade Celina Estagio em administração</strong>, minha rotinia diária foi aprender e abosrver o maximo de conhecimento sobre a area de contabilidade, lançamento de notas fiscais, controle de estoque e atendimento ao cliente.
+                          <strong>Contabilidade Celina Estágio em administração</strong> minha rotina diária foi aprender e absorver o máximo de conhecimento sobre a área de contabilidade, lançamento de notas fiscais, controle de estoque e atendimento ao cliente.
                           <br /><strong>2023-2024</strong><br />
                         </p>
                       </Tab.Pane>
