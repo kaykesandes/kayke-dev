@@ -1,15 +1,18 @@
-import { Row } from "react-bootstrap"
+import React from 'react';
+import { Col } from 'react-bootstrap';
 
-export const ProjectEstudy = ({ title, subtitle, description, time, img}) => {
-    return(
-            <div className="project-container">
-                <div>
-                    <h4 className="title-project-diploma">{title}</h4>
-                    {img && <img src={img} className="img-project"/>}
-                    <h5 className="project-title-curso">{subtitle}</h5>
-                    <span className="p-project-text">{description}</span>
-                    <span className="p-project-date">{time}</span>
-                </div>
-            </div>
-    )
-}
+export const ProjectEstudy = ({ title, subtitle, description, time, img }) => {
+  return (
+    <Col sm={6} md={4}>
+      <div className="project-estudy">
+        {img && <img src={img} alt={title} />}
+        <div>
+          <h3>{title}</h3>
+          <h5>{subtitle}</h5>
+          <p>{description}</p>
+          <footer>{time}</footer>
+        </div>
+      </div>
+    </Col>
+  );
+};

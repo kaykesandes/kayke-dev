@@ -35,8 +35,8 @@ export const Projects = ({ status, message, onValidated }) => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2>Projetos</h2>
-                  <p>Lista de projetos prontos, desde os mais complexos até os mais simples.</p>
+                  <h2>Informações</h2>
+                  <p>Informações pessoais que destacam minha trajetória e conquistas, refletindo meu compromisso com a excelência e a inovação. Cada detalhe aqui apresentado é uma peça fundamental na construção da minha jornada profissional e pessoal.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
@@ -49,9 +49,9 @@ export const Projects = ({ status, message, onValidated }) => {
                         <Nav.Link eventKey="third">Experiências profissionais</Nav.Link>
                       </Nav.Item>
                     </Nav>
-                    <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                    <Tab.Content id="slideInUp">
                       <Tab.Pane eventKey="first">
-                        <div>
+                        <div className='ERAAQOPROBLEMA'>
                           {
                             cursos.map((project, index) => {
                               return (
