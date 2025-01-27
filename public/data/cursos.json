@@ -1,23 +1,23 @@
 [
-    {
-      "title": "Ciência da Computação",
-      "subtitle": "Cruzeiro do sul",
-      "description": "5 semestres de estudo, com foco em programação, matemática e lógica de programação.",
-      "time": "Previsão de conclusão: 12/2026",
-      "img": "https://i.imgur.com/zTpLO59.png"
-    },
-    {
-      "title": "Python Completo",
-      "subtitle": "Udemy",
-      "description": "Curso completo de Python, com foco em lógica de programação e desenvolvimento de software.",
-      "time": "Concluído em 2021",
-      "img": "https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/fallbackimage.jpg"
-    },
-    {
-      "title": "Data science",
-      "subtitle": "Udemy",
-      "description": "Curso completo de Data Science, com foco em análise de dados e desenvolvimento de software.",
-      "time": "Concluído em 2024",
-      "img": "https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/fallbackimage.jpg"
-    }
-  ]
+  {
+    "title": "Bacharelado em Ciência da Computação",
+    "subtitle": "Universidade Cruzeiro do Sul",
+    "description": "Curso voltado para o desenvolvimento de software e tecnologias de informação.",
+    "time": "jan de 2022 - dez de 2026",
+    "img": "https://i.imgur.com/zTpLO59.png"
+  },
+  {
+    "title": "Python Completo",
+    "subtitle": "Udemy",
+    "description": "Curso completo de Python, com foco em lógica de programação e desenvolvimento de software.",
+    "time": "Concluído em 2021",
+    "img": "https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/fallbackimage.jpg"
+  },
+  {
+    "title": "Data science",
+    "subtitle": "Udemy",
+    "description": "Curso completo de Data Science, com foco em análise de dados e desenvolvimento de software.",
+    "time": "Concluído em 2024",
+    "img": "https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/fallbackimage.jpg"
+  }
+]

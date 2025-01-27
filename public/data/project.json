@@ -1,19 +1,37 @@
 [
     {
-      "title": "LibFt",
+      "title": "LibFt(C)",
       "description": "Recriando a libc",
       "imgUrl": "https://i.imgur.com/sxPRpCv.png",
       "url": "https://github.com/kaykesandes/libft_kg"
     },
     {
-      "title": "CodeWars",
+      "title": "CodeWars(C/Python)",	
       "description": "Desafios de logica",
       "imgUrl": "https://i.imgur.com/RBSnTZR.png",
       "url": "https://github.com/kaykesandes/codewars"
     },
     {
-      "title": "Get_nex_line",
+      "title": "Get_nex_line(C)",
       "description": "Função complexa de char",
       "imgUrl": "https://i.imgur.com/yq5Jxih.png"
+    },
+    {
+      "title": "MyShell(C)",
+      "description": "Recriando um shell",
+      "imgUrl": "https://i.imgur.com/S6NT5xo.png",
+      "url": "https://github.com/kaykesandes/MyShell"
+    },
+    {
+      "title": "Simulador de Contágio(Java)",
+      "description": "Simulador de contágio de doenças",
+      "imgUrl": "https://i.imgur.com/cvRBNJP.png",
+      "url": "https://github.com/kaykesandes/SimuladorContagio"
+    },
+    {
+      "title": "RecommendatioSystems",
+      "description": "Sistema de recomendação de filmes",
+      "imgUrl": "https://i.imgur.com/obxAgf5.png",
+      "url": "https://github.com/kaykesandes/RecommendatioSystems"
     }
 ]
