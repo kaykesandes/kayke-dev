@@ -33,5 +33,11 @@
       "description": "Sistema de recomendação de filmes",
       "imgUrl": "https://i.imgur.com/obxAgf5.png",
       "url": "https://github.com/kaykesandes/RecommendatioSystems"
+    },
+    {
+      "title": "ETL_commodities",
+      "description": "Sistema de ETL de commodities com aws e excel",
+      "imgUrl": "https://i.imgur.com/zK6DJkk.png",
+      "url": "https://github.com/kaykesandes/ETL_commodities"
     }
 ]
