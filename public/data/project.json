@@ -39,5 +39,11 @@
       "description": "Sistema de ETL de commodities com aws e excel",
       "imgUrl": "https://i.imgur.com/zK6DJkk.png",
       "url": "https://github.com/kaykesandes/ETL_commodities"
+    },
+    {
+      "title": "Raycasting",
+      "description": "Implementação do raycasting",
+      "imgUrl": "https://i.imgur.com/pYzktmz.png",
+      "url": "https://github.com/kaykesandes/Raycasting_C"
     }
 ]

@@ -79,16 +79,48 @@ export const Projects = ({ status, message, onValidated }) => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                      <p>
-                          Trabalhei 2 anos em escritórios com administração e agora estou em busca de me especializar na área de Computação <br />
-                          <hr />
-                          <strong>Recanto dos Doces Auxiliar administrativo</strong> minha tarefa diária era entrada de estoque e lançamento de contas a pagar, planilhas Excel para controle e relatório financeiro.<br />
-                          <br /><strong>2024-2025</strong><br />
-                          <hr />
-                          <strong>Contabilidade Celina Estágio em administração</strong> minha rotina diária foi aprender e absorver o máximo de conhecimento sobre a área de contabilidade, lançamento de notas fiscais, controle de estoque e atendimento ao cliente.
-                          <br /><strong>2023-2024</strong><br />
-                        </p>
-                      </Tab.Pane>
+                          <p>
+                            Trabalhei 2 anos em escritórios com administração e agora estou em busca de me especializar na área de Computação.<br />
+                            <hr />
+
+                            <strong>Kodland Latinoamérica · Game Development Instructor (Freelance)</strong><br />
+                            <em>mar de 2025 - o momento · 4 meses · Remoto</em><br />
+                            Atuo como instrutor de desenvolvimento de jogos para alunos de 9 a 17 anos em toda a América Latina.<br />
+                            👨‍🏫 Mais de 150 alunos ensinados usando Roblox Studio, Lua e Python introdutório, abordando lógica de jogos, scripting e design criativo.<br />
+                            🛠️ Implementação de Unix3D em projetos colaborativos, promovendo trabalho em equipe, resolução de problemas e fluência digital.<br />
+                            🎯 Aulas práticas desde o primeiro dia, incentivando criatividade, confiança e domínio tecnológico.<br />
+                            <hr />
+
+                            <strong>Guardião Pro · (PJ) VideoMaker (Tempo integral)</strong><br />
+                            <em>dez de 2024 - mar de 2025 · 4 meses · Remoto</em><br />
+                            🔧 Planejamento e montagem do estúdio de gravação (luz, som, câmera e cenário).<br />
+                            Configuração profissional do OBS Studio para gravações e transmissões.<br />
+                            Criação do site institucional e plataforma de cursos.<br />
+                            Otimização de performance e usabilidade.<br />
+                            💰 Redução de mais de 30% dos custos previstos com soluções técnicas eficientes.<br />
+                            Entrega de infraestrutura pronta e funcional, garantindo qualidade de produção audiovisual.<br />
+                            <hr />
+
+                            <strong>Recanto dos Doces · Auxiliar administrativo (Tempo integral)</strong><br />
+                            <em>mar de 2023 - dez de 2024 · 1 ano 10 meses · Híbrido</em><br />
+                            Entrada de estoque, lançamento de contas a pagar, planilhas Excel para controle e relatório financeiro.<br />
+                            <hr />
+
+                            <strong>Contabilidade Celina · Estágio em administração</strong><br />
+                            <em>2023-2024</em><br />
+                            Lançamento de notas fiscais, controle de estoque e atendimento ao cliente.<br />
+                            <hr />
+
+                            <strong>Mcg Soluções Administrativa · Estágio (Meio período)</strong><br />
+                            <em>2022 - dez de 2022 · 1 ano · Remoto</em><br />
+                            Importação, assistência pessoal e outras competências.<br />
+                            <hr />
+
+                            <strong>Santander Brasil · Aprendiz (Meio período)</strong><br />
+                            <em>jan de 2020 - out de 2021 · 1 ano 10 meses</em><br />
+                            Aprendiz.<br />
+                          </p>
+                        </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
                 </div>
